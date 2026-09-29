@@ -1,0 +1,94 @@
+﻿# ============================================================
+# Revisor Judicial - .gitignore
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+Output/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---------- Entornos virtuales ----------
+.venv/
+venv/
+ENV/
+env/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- Datos sensibles ----------
+config.json
+licencia.json
+historial.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------- Datos de clientes ----------
+Procesos.xlsx
+Radicados_SAMAI.xlsx
+resultados_actuaciones.xlsx
+resultados_samai.xlsx
+resultados_actuaciones_PENDIENTE_*.xlsx
+resultados_samai_PENDIENTE_*.xlsx
+*.backup_*.xlsx
+
+# ---------- Carpetas de datos generados ----------
+logs/
+capturas/
+busquedas_anteriores/
+respaldos_radicados/
+excels_pendientes/
+resources/guia/*.pdf
+
+# ---------- Chrome / Selenium ----------
+data/_chrome_profile/
+data/_powerbi_raw/
+chrome_profile/
+
+# ---------- Debug temporal ----------
+respuesta.json
+data/correos.html
+data/correos.json
+data/debug_directorio.html
+data/directorio_despachos.pdf
+directorio_pagina.html
+data/correos_completo.csv
+data/correos_powerbi.csv
+data/correos_unicos.csv
+extraer_correos.py
+limpiar_correos.py
+capturar_powerbi.py
+extraer_pdf.py
+test_directorio.py
+core/_dump_powerbi.py
+core/exportar_powerbi.py
+core/scraper_correos.py
+
+# ---------- WARP (MSI grande, se descarga) ----------
+resources/warp/*.msi
+
+# ---------- Instalador ----------
+RevisorJudicial_v1.0.0.zip
+*.zip
+
+# ---------- Archivos de sistema ----------
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# ---------- Archivos de debug ----------
+debug_main.txt
+scraper_rama.spec

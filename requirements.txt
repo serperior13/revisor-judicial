@@ -1,0 +1,32 @@
+# ============================================================
+# Revisor Judicial — dependencias
+# Generado a partir del pip freeze del entorno de desarrollo
+# ============================================================
+
+# --- GUI ---
+customtkinter==6.0.0
+darkdetect==0.8.0
+pillow==12.3.0
+
+# --- Selenium / scraping ---
+selenium==4.48.0
+webdriver-manager==4.1.2
+
+# --- Datos ---
+pandas==3.0.5
+numpy==2.5.3
+openpyxl==3.1.5
+xlrd==2.0.2
+
+# --- HTTP ---
+requests==2.34.2
+
+# --- Windows: cierre automático de Excel bloqueado ---
+pywin32==312; sys_platform == "win32"
+pywin32-ctypes==0.2.3; sys_platform == "win32"
+
+# --- Empaquetado .exe ---
+pyinstaller==6.22.2
+pyinstaller-hooks-contrib==2026.7
+altgraph==0.17.5
+pefile==2024.8.26
